@@ -1,19 +1,22 @@
-# POW
-## Political Overton Windows
+# POW - EMNLP 2025
 
-This repository explores the concept of Political Overton Windows through data analysis and visualization. The accompanying Jupyter Notebook provides insights into how public opinion shifts over time and how certain ideas move from being unthinkable to mainstream.
+## POW: Political Overton Windows in Large Language Models
 
-### Notebook Overview
+This repository provides the data and code for our paper on Political Overton Windows. The accompanying Jupyter Notebooks provide the the results and plots that appear in the paper, along with the data.
 
-The Jupyter Notebook in this repository contains:
-- **Data Collection**: Scripts to gather data from various sources.
-- **Data Analysis**: Methods to analyze trends and shifts in public opinion.
-- **Visualization**: Graphs and charts to illustrate the Overton Window concept.
+See our other repository [PRISM](https://github.com/CIS-PHAWM/PRISM) for the code used to audit the Political Preferences of LLMs.
 
-Run the notebook using:
-```bash
-jupyter notebook
+
+## Citation
+
 ```
-
-Explore the notebook to gain a deeper understanding of the Political Overton Windows and its implications.
-
+@inproceedings{azzopardi2025pow,
+  author    = {Leif Azzopardi and Yashar Moshfeghi},
+  title     = {POW: Political Overton Windows of Large Language Models},
+  booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)},
+  year      = {2025},
+  address   = {Suzhou, China},
+  month     = {November},
+  url       = {https://2025.emnlp.org},
+}
+```
