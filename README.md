@@ -2,6 +2,10 @@
 
 ## POW: Political Overton Windows in Large Language Models
 
+In our EMNLP 2025 paper we set out to map the Overton Windows of LLMs by auditing the political stances that they are willing to expouse and thus deem as acceptable i.e. within their Overton window. What is revealing is what views they are not willing to expouse and what their default policy is.
+
+![Overton Window](./data/pct-overton.png)
+
 This repository provides the data and code for our paper on Political Overton Windows. The accompanying Jupyter Notebooks provide the the results and plots that appear in the paper, along with the data.
 
 See our other repository [PRISM](https://github.com/CIS-PHAWM/PRISM) for the code used to audit the Political Preferences of LLMs.
